@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:padding="16dp"
+    android:background="@color/background_black">
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!-- Title at the top -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To tic_tac_toe game"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/button_text"
+        android:layout_marginBottom="16dp"
+        android:shadowColor="#00FFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="8" />
+
+    <!-- Game Mode Selection -->
+    <RadioGroup
+        android:id="@+id/modeSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/playWithComputer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play with Computer"
+            android:textColor="@color/button_text"
+            android:buttonTint="@color/button_text"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/playWithFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play with Friend"
+            android:textColor="@color/button_text"
+            android:buttonTint="@color/button_text"
+            android:layout_marginStart="16dp" />
+    </RadioGroup>
+
+    <!-- Spacer added here to push the grid lower -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <!-- Game Grid -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginBottom="20dp">
+
+        <Button android:id="@+id/button0" style="@style/NeonButton"/>
+        <Button android:id="@+id/button1" style="@style/NeonButton"/>
+        <Button android:id="@+id/button2" style="@style/NeonButton"/>
+        <Button android:id="@+id/button3" style="@style/NeonButton"/>
+        <Button android:id="@+id/button4" style="@style/NeonButton"/>
+        <Button android:id="@+id/button5" style="@style/NeonButton"/>
+        <Button android:id="@+id/button6" style="@style/NeonButton"/>
+        <Button android:id="@+id/button7" style="@style/NeonButton"/>
+        <Button android:id="@+id/button8" style="@style/NeonButton"/>
+    </GridLayout>
+
+    <!-- Winner text -->
+    <TextView
+        android:id="@+id/winnerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/button_text"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:shadowColor="#00FFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="8" />
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Game"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/button_text"
+        android:textSize="18sp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

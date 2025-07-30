@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App Theme -->
+    <style name="Theme.Tic_Tac_Toe_game" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/background_black</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="TicTacToeButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:backgroundTint">@color/navy_blue</item>
+        <item name="android:textColor">@color/button_text</item>
+    </style>
+
+</resources>

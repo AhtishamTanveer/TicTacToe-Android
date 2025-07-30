@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Material Colors -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Custom UI Colors -->
+    <color name="background_black">#121212</color>
+    <color name="navy_blue">#1A237E</color>
+    <color name="button_text">#00FFFF</color>
+
+    <!-- NEW: Game-specific -->
+    <color name="x_color">#000000</color>  <!-- Black -->
+    <color name="o_color">#00FFFF</color>  <!-- Cyan -->
+</resources>
