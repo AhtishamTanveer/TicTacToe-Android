@@ -2,8 +2,8 @@
 [Download APK](releases/app-debug.apk)
 ## Screenshots
 ### Home Screen
-![Home Screen](screenshots/1.png)
-
+![Screenshot 1](screenshots/1.png)
 ### Game Screen
-![Game Screen](screenshots/2.png)
-![Game Screen](screenshots/3.png)
+![Screenshot 2](screenshots/2.png)
+### Result Screen
+![Screenshot 3](screenshots/3.png)
