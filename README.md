@@ -1,10 +1,5 @@
 ## Download
 [Download APK](releases/app-debug.apk)
-
-## Screenshots
-
-## Screenshots
-
 ### Screenshot 1
 <img width="333" height="622" alt="1" src="https://github.com/user-attachments/assets/817c423f-45f3-4e09-9af1-c465e33719ac" />
 
